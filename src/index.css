@@ -2084,3 +2084,38 @@ section::before {
 section {
   border-top: 1px solid rgba(255, 255, 255, 0.035);
 }
+
+/* =========================
+   CODE CARD - MOBILE
+========================= */
+
+@media (max-width: 650px) {
+
+  .hero-visual {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .code-card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+
+    transform: rotate(0deg);
+  }
+
+  .code-content {
+    padding: 22px 18px;
+    font-size: 12px;
+    line-height: 1.9;
+
+    overflow-x: auto;
+    box-sizing: border-box;
+  }
+
+  .code-indent {
+    padding-left: 15px;
+  }
+
+}
