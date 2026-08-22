@@ -30,7 +30,7 @@ function Hero() {
     View My Work
   </a>
 
-  <a href="public\resume.pdf" className="secondary-button" download>
+  <a href="/resume.pdf" className="secondary-button" download>
     Download Resume
   </a>
 

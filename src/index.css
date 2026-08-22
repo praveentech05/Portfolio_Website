@@ -2086,36 +2086,33 @@ section {
 }
 
 /* =========================
-   CODE CARD - MOBILE
+   HERO RESPONSIVE
 ========================= */
+@media (max-width: 768px) {
 
-@media (max-width: 650px) {
+  .hero {
+    overflow-x: hidden;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
 
   .hero-visual {
     width: 100%;
-    padding: 0 10px;
-    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
   }
 
   .code-card {
     width: 100%;
-    max-width: 100%;
-    box-sizing: border-box;
-
-    transform: rotate(0deg);
-  }
-
-  .code-content {
-    padding: 22px 18px;
-    font-size: 12px;
-    line-height: 1.9;
-
-    overflow-x: auto;
-    box-sizing: border-box;
-  }
-
-  .code-indent {
-    padding-left: 15px;
+    max-width: 480px;
+    transform: none;
   }
 
 }
