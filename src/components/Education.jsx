@@ -4,21 +4,21 @@ function Education() {
   const education = [
     {
       year: "2025 — Present",
-      degree: "Master's Degree",
-      institution: "Reva University",
+      degree: "Master's Degree (MCA)",
+      institution: "REVA University, Bengaluru",
       description:
         "Currently pursuing my master's degree while developing my technical skills and building practical software projects."
     },
     {
       year: "2022 — 2025",
-      degree: "Bachelor's Degree",
-      institution: "Seshadripuram College Tumakuru",
+      degree: "Bachelor's Degree (BCA)",
+      institution: "Seshadripuram College, Tumakuru",
       description:
         "Completed my bachelor's degree with an interest in technology and computer science."
     },
     {
       year: "2020 — 2022",
-      degree: "II PUC",
+      degree: "PUC (PCMB)",
       institution: "The Master's PU College, Tumakuru",
       description:
         "Completed higher secondary education with a focus on science and mathematics, laying the foundation for my interest in technology."
