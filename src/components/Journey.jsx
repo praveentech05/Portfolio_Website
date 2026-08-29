@@ -42,6 +42,7 @@ function Journey() {
 
   return (
     <section className="journey-section section" id="journey">
+      <Reveal>
       <div className="section-container">
 
         <div className="section-heading">
@@ -58,7 +59,7 @@ function Journey() {
           </p>
         </div>
 
-        <Reveal>
+        
         <div className="journey-track">
 
           {milestones.map((milestone) => (
@@ -85,9 +86,10 @@ function Journey() {
           ))}
 
         </div>
-        </Reveal>
+        
 
       </div>
+      </Reveal>
     </section>
   );
 }

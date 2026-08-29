@@ -35,6 +35,7 @@ function Contact() {
 };
   return (
     <section className="contact section" id="contact">
+      <Reveal>
       <div className="section-container">
 
         <div className="contact-heading">
@@ -51,7 +52,7 @@ function Contact() {
           </p>
         </div>
 
-        <Reveal>
+        
           <div className="contact-grid">
 
             {/* Contact Information */}
@@ -203,9 +204,10 @@ function Contact() {
             </form>
 
           </div>
-        </Reveal>
+        
 
       </div>
+      </Reveal>
     </section>
   );
 }

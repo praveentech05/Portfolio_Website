@@ -34,6 +34,7 @@ function Services() {
 
   return (
     <section className="services section" id="services">
+       <Reveal>
       <div className="section-container">
 
         <div className="section-heading">
@@ -50,7 +51,7 @@ function Services() {
           </p>
         </div>
 
-        <Reveal>
+       
         <div className="services-grid">
 
           {services.map((service) => (
@@ -86,9 +87,10 @@ function Services() {
           ))}
 
         </div>
-        </Reveal>
+        
 
       </div>
+      </Reveal>
     </section>
   );
 }

@@ -4,6 +4,7 @@ import Reveal from "./Reveal";
 function About() {
   return (
     <section className="about section" id="about">
+      <Reveal>
       <div className="section-container">
 
         <div className="section-heading">
@@ -40,7 +41,7 @@ function About() {
           </div>
           
           
-        <Reveal>
+        
           <div className="about-stats">
 
             <div className="stat-card">
@@ -68,11 +69,12 @@ function About() {
             </div>
 
           </div>
-        </Reveal>
+        
 
         </div>
       
       </div>
+      </Reveal>
       
       
     </section>

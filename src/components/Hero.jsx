@@ -1,6 +1,10 @@
+import Reveal from "./Reveal";
+
+
 function Hero() {
   return (
     <section className="hero" id="home">
+      <Reveal>
 
       <div className="hero-container">
 
@@ -92,11 +96,14 @@ function Hero() {
         </div>
 
       </div>
+      </Reveal>
 
       <div className="scroll-indicator">
         <span>Scroll to explore</span>
         <div className="scroll-line"></div>
       </div>
+
+      
 
     </section>
   );

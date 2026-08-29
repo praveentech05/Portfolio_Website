@@ -360,6 +360,8 @@ section::before {
 .nav-links a:hover,
 .nav-links a.active {
   color: #ffffff;
+  transform: rotate(0deg) translateY(-5px);
+
 }
 
 .nav-links a::after {
@@ -719,7 +721,7 @@ section::before {
     0 35px 90px rgba(0, 0, 0, 0.50),
     0 0 80px rgba(139, 92, 246, 0.08);
 
-  transform: rotate(1deg);
+  transform: rotate(-5deg);
 
   transition:
     transform 0.35s ease,
@@ -727,7 +729,7 @@ section::before {
 }
 
 .code-card:hover {
-  transform: rotate(0deg) translateY(-5px);
+  transform: rotate(5deg) translateY(-10px);
 
   border-color:
     rgba(139, 92, 246, 0.35);
@@ -2122,16 +2124,30 @@ section::before {
 }
 
 
-/* =========================================================
-   REVEAL
-   No animation — content is always visible.
-   ========================================================= */
+/* =========================
+   SCROLL REVEAL
+========================= */
 
-.reveal,
+.reveal {
+  opacity: 0;
+  transform: translateY(45px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+  will-change: opacity, transform;
+}
+
 .reveal-visible {
   opacity: 1;
-  transform: none;
-  transition: none;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 

@@ -30,6 +30,7 @@ function Skills() {
 
   return (
     <section className="skills section" id="skills">
+      <Reveal>
       <div className="section-container">
 
         <div className="section-heading">
@@ -46,7 +47,7 @@ function Skills() {
           </p>
         </div>
 
-        <Reveal>
+        
         <div className="skills-grid">
 
           {skills.map((skill, index) => (
@@ -70,9 +71,10 @@ function Skills() {
           ))}
 
         </div>
-        </Reveal>
+       
 
       </div>
+       </Reveal>
     </section>
   );
 }
