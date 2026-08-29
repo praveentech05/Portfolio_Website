@@ -8,7 +8,7 @@ function Skills() {
     },
     {
       category: "Frontend",
-      items: ["React.js", "Responsive Design", "UI Development"]
+      items: ["ReactJS", "Responsive Design", "UI/UX Development"]
     },
     {
       category: "Backend",
@@ -24,7 +24,7 @@ function Skills() {
     },
     {
       category: "Currently Learning",
-      items: ["Full Stack Development", "Advanced React"]
+      items: ["Full Stack Development", "Advanced React","Backend Development with Spring Boot"]
     }
   ];
 

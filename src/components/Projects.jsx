@@ -2,24 +2,26 @@ import Reveal from "./Reveal";
 
 function Projects() {
   const projects = [
-    {
+     {
       number: "01",
-      title: "Student Management System",
-      description:
-        "A Java and SQL based application for managing student records with complete CRUD operations and database connectivity.",
-      technologies: ["Java", "SQL", "JDBC"],
-      type: "Java Application",
-      github: "#"
-    },
-    {
-      number: "02",
       title: "Task Management App",
       description:
         "A backend application built with Spring Boot and REST APIs, designed to demonstrate modern Java backend development.",
       technologies: ["Java", "Spring Boot", "MySQL"],
       type: "Backend Application",
-      github: "#"
+      github: "https://github.com/praveentech05/Task_Management_App"
+    },
+
+    {
+      number: "02",
+      title: "Student Management System",
+      description:
+        "A Java and SQL Console based application for managing student records with complete CRUD operations and database connectivity.",
+      technologies: ["Java", "SQL", "JDBC"],
+      type: "Java Application",
+      github: "https://github.com/praveentech05/Student_Management_System"
     }
+   
   ];
 
   return (
@@ -74,13 +76,13 @@ function Projects() {
 
               </div>
 
-              {/* <a
+              <a
                 href={project.github}
                 className="project-link"
               >
                 View Project
                 <span>↗</span>
-              </a> */}
+              </a>
 
             </article>
           ))}

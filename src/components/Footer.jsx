@@ -9,7 +9,7 @@ function Footer() {
           <div className="footer-brand">
 
             <a href="#home" className="footer-logo">
-              <span>&lt;</span>Praveen<span>/&gt;</span>
+              <span>&lt;</span>Praveen R.<span>/&gt;</span>
             </a>
 
             <p>
@@ -39,8 +39,8 @@ function Footer() {
 
               <a href="#services">Services</a>
               <a href="#contact">Contact</a>
-              <a href="#">GitHub</a>
-              <a href="#">LinkedIn</a>
+              <a href="https://github.com/praveentech05">GitHub</a>
+              <a href="https://www.linkedin.com/in/praveen-r5">LinkedIn</a>
 
             </div>
 
@@ -52,7 +52,7 @@ function Footer() {
         <div className="footer-bottom">
 
           <p>
-            © {new Date().getFullYear()} Praveen. All rights reserved.
+            © {new Date().getFullYear()} Praveen R. All rights reserved.
           </p>
 
           <p>

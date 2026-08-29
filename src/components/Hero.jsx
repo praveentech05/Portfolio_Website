@@ -30,7 +30,7 @@ function Hero() {
     View My Work
   </a>
 
-  <a href="/resume.pdf" className="secondary-button" download>
+  <a href="/Praveen_R.pdf" className="secondary-button" download>
     Download Resume
   </a>
 
@@ -45,7 +45,7 @@ function Hero() {
               LinkedIn
             </a>
 
-            <a href="mailto:praveen.projects05@gmail.com" aria-label="Email">
+            <a href="mailto:praveen.renukaiah05@gmail.com" aria-label="Email">
               Email
             </a>
           </div>

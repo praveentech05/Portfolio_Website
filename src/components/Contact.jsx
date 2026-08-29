@@ -70,7 +70,7 @@ function Contact() {
               <div className="contact-details">
 
                 <a
-                  href="mailto:praveen.projects05@gmail.com"
+                  href="mailto:praveen.renukaiah05@gmail.com"
                   className="contact-detail"
                 >
                   <span className="contact-detail-label">
@@ -78,7 +78,7 @@ function Contact() {
                   </span>
 
                   <span className="contact-detail-value">
-                    praveen.projects05@gmail.com
+                    praveen.renukaiah05@gmail.com
                   </span>
                 </a>
 
