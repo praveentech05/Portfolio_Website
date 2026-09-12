@@ -2,8 +2,23 @@ import Reveal from "./Reveal";
 
 function Projects() {
   const projects = [
-     {
+
+    {
       number: "01",
+      title: "Inventory Management System",
+      description: [
+        "Developed a full-stack inventory management application using React.js, Node.js, Express.js, and MongoDB.",
+        "Designed and implemented RESTful APIs for product CRUD operations and inventory data management.",
+        "Implemented product search, category filtering, and low-stock detection/highlighting for efficient inventory tracking.",
+        "Built a responsive frontend with input validation and error handling to provide a reliable user experience.",
+      ],
+      technologies: ["ReactJS", "Node.js", "Express", "MongoDB"],
+      type: "Full-Stack Application",
+      github: "https://github.com/praveentech05/inventory-management-system"
+    },
+
+    {
+      number: "02",
       title: "Task Management REST API",
       description: [
         "Developed RESTful APIs for task management system handling CRUD operations.", 
@@ -18,7 +33,7 @@ function Projects() {
     },
 
     {
-      number: "02",
+      number: "03",
       title: "Student Management System",
       description: [
         "Developed a console-based application to manage student records using Java and SQL JDBC.",
@@ -29,22 +44,8 @@ function Projects() {
       technologies: ["Java", "SQL", "JDBC"],
       type: "Java Application",
       github: "https://github.com/praveentech05/Student_Management_System"
-    },
-
-    {
-      number: "03",
-      title: "Inventory Management System",
-      description: [
-        "Developed a full-stack inventory management application using React.js, Node.js, Express.js, and MongoDB.",
-        "Designed and implemented RESTful APIs for product CRUD operations and inventory data management.",
-        "Implemented product search, category filtering, and low-stock detection/highlighting for efficient inventory tracking.",
-        "Built a responsive frontend with input validation and error handling to provide a reliable user experience.",
-      ],
-      technologies: ["ReactJS", "Node.js", "Express", "MongoDB"],
-      type: "Full-Stack Application",
-      github: "https://github.com/praveentech05/inventory-management-system"
     }
-   
+
   ];
 
   return (
@@ -88,11 +89,11 @@ function Projects() {
 
                 <h3>{project.title}</h3>
 
-                <p>{project.description}</p>
+                {/* <p>{project.description}</p> */}
 
-                {/* <p>{project.description.map((desc) => (
+                <p>{project.description.map((desc) => (
                   <span key={desc}>{desc}</span>
-                ))}</p> */}
+                ))}</p>
 
                 <div className="project-technologies">
                   {project.technologies.map((technology) => (
