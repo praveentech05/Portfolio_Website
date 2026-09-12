@@ -89,11 +89,11 @@ function Projects() {
 
                 <h3>{project.title}</h3>
 
-                {/* <p>{project.description}</p> */}
-
-                <p>{project.description.map((desc) => (
-                  <span key={desc}>{desc}</span>
-                ))}</p>
+                <ul className="project-description">
+                    {project.description.map((point, index) => (
+                      <li key={index}>{point}</li>
+                ))}
+                </ul>
 
                 <div className="project-technologies">
                   {project.technologies.map((technology) => (

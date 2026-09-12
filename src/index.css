@@ -1300,6 +1300,24 @@ section::before {
   transform: translate(3px, -3px);
 }
 
+.project-description {
+  margin: 20px 0 0;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-description li {
+  color: #a8a8b3;
+  font-size: 15px;
+  line-height: 1.7;
+  padding-left: 4px;
+}
+
+.project-description li::marker {
+  color: #7c5cff;
+}
 
 /* =========================================================
    SERVICES
