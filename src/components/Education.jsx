@@ -6,6 +6,7 @@ function Education() {
       year: "2025 — Present",
       degree: "Master's Degree (MCA)",
       institution: "REVA University, Bengaluru",
+      CGPA: "9.41/10",
       description:
         "Currently pursuing my master's degree while developing my technical skills and building practical software projects."
     },
@@ -13,6 +14,7 @@ function Education() {
       year: "2022 — 2025",
       degree: "Bachelor's Degree (BCA)",
       institution: "Seshadripuram College, Tumakuru",
+      CGPA: "8.99/10",
       description:
         "Completed my bachelor's degree with an interest in technology and computer science."
     },
@@ -20,6 +22,7 @@ function Education() {
       year: "2020 — 2022",
       degree: "PUC (PCMB)",
       institution: "The Master's PU College, Tumakuru",
+      CGPA: "9.16/10",
       description:
         "Completed higher secondary education with a focus on science and mathematics, laying the foundation for my interest in technology."
     },
@@ -27,6 +30,7 @@ function Education() {
       year: "2019 — 2020",
       degree: "SSLC",
       institution: "Sri Ranga Vidya Mandira, Tumakuru",
+      CGPA: "9.68/10",
       description:
         "Completed my SSLC with a strong foundation in science and mathematics."
     }

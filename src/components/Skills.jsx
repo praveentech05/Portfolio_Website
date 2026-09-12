@@ -16,7 +16,7 @@ function Skills() {
     },
     {
       category: "Database",
-      items: ["MySQL", "PostgreSQL"]
+      items: ["MySQL", "PostgreSQL"," MongoDB"]
     },
     {
       category: "Tools",
